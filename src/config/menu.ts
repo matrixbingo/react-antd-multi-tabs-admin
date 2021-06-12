@@ -47,6 +47,12 @@ const menus = [
     name: '测试权限页',
     key: 'auth:test:view',
     icon: BankOutlined
+  },
+  {
+    path: '/utils',
+    name: '工具',
+    key: 'utils:list:view',
+    icon: BankOutlined
   }
 ]
 

@@ -21,3 +21,18 @@
 npm-debug.log*
 yarn-debug.log*
 yarn-error.log*
+
+
+
+# production
+/dist
+.umi
+
+.idea/
+.vscode/
+.history/
+.setting/
+
+*.css.d.ts
+
+report_*.xml

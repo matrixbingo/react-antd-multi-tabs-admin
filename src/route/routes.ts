@@ -7,6 +7,7 @@ import UserEdit from '@/pages/user/edit'
 import RoleList from '@/pages/role/list'
 
 import AuthTest from '@/pages/test'
+import Utils from '@/pages/utils'
 
 /**
  * path 跳转的路径
@@ -69,6 +70,13 @@ const menus = [
     exact: true,
     key: 'auth:test:view',
     component: AuthTest
+  },
+  {
+    path: '/utils',
+    name: '工具',
+    exact: true,
+    key: 'utils:list:view',
+    component: Utils
   },
   {
     path: '/403',
